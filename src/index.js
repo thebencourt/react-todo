@@ -1,10 +1,7 @@
-import 'babel-polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import './css/app.css';
-import './css/header.css';
-import App from './components/App.jsx';
+import App from './components/App';
 import store from './store';
 
 ReactDOM.render(
